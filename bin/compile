@@ -195,7 +195,7 @@ if [ ! "$SKIP_INSTALL" ]; then
   echo $PYTHON_VERSION > .heroku/python-version
 
   # Prepare it for the real world
-  curl -O http://python-distribute.org/distribute_setup.py
+  curl -O curl -O https://sources.debian.org/data/main/p/python-virtualenv/1.7.1.2-2/virtualenv_embedded/distribute_setup.py
   python distribute_setup.py
 
   # easy_install pip
